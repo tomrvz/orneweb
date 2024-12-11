@@ -6,29 +6,34 @@ body {
   color: white;
   height: 100vh;
   width: 100vw;
-  background-image: url(https://www.globe-co.com/storage/products/September2023/hs6H9v4rubGBb1T8euyh.gif);
+  background-image: url(./background.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
-  overflow:  hidden;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
 }
 
 .maintenance_box {
-  padding:  10px 20px ;
-  width: 40%;
+  border: solid;
+  border-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color: rgba(250, 250, 250, .3);
+  padding:  20px ;
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 35px;
-  backdrop-filter: blur(5px);
-  box-shadow: 0px 0px 10px 3px rgba(250, 250, 250, .0);
+  backdrop-filter: blur(10px);
   transition: all 0.2s ease;
 }
 
 .maintenance_box:hover {
-  box-shadow: 0px 0px 10px 3px rgba(250, 250, 250, .2);
+  box-shadow: 0px 0px 10px 10px rgba(250, 250, 250, .1);
 }
 
 .maintenance_box_contact {
@@ -53,10 +58,17 @@ a {
 }
 
 @media (max-width: 768px) {
-  .maintenance_box {
-    width: 90%
-  }
   .maintenance_box:hover {
     box-shadow: 0px 0px 10px 3px rgba(250, 250, 250, .0);
   }
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.title {
+  margin-left: 20px;
+  margin-right: 20px;
 }
