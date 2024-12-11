@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  overflow:  hidden;
 }
 
 .maintenance_box {
@@ -48,4 +49,9 @@ a {
   color: white;
   text-decoration: none;
   font-size: 1.5em
+}
+
+@media (max-width: 768px) {
+  .maintenance_box {
+    width: 90%
 }
