@@ -9,6 +9,7 @@ body {
   background-image: url(https://www.globe-co.com/storage/products/September2023/hs6H9v4rubGBb1T8euyh.gif);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   text-align: center;
   overflow:  hidden;
 }
